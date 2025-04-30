@@ -29,8 +29,8 @@ SELECT * FROM DimCustomer;
 - Integration with other Microsoft tools
 - Support for transactions and stored procedures
 3. Authentication Modes
-- Windows Authentication – Uses your Windows credentials.
-- SQL Server Authentication – Requires a username and password created inside SQL Server.
+- Windows Authentication â€“ Uses your Windows credentials.
+- SQL Server Authentication â€“ Requires a username and password created inside SQL Server.
 Medium
 1. Create a New Database
 SQL Command: CREATE DATABASE SchoolDB;
@@ -63,11 +63,4 @@ INSERT INTO Students (StudentID, Name, Age) VALUES
 (1, 'Ali', 20),
 (2, 'Laylo', 21),
 (3, 'Jasur', 19);
-3. Restore AdventureWorksDW2022.bak File
-- Download the .bak file from the official GitHub link.
-- Move the file to SQL Server’s backup directory.
-- Open SSMS and connect to your server.
-- Right-click 'Databases' > 'Restore Database...'.
-- Under 'Source', choose 'Device' and select the .bak file.
-- Choose a name for the database (e.g., AdventureWorksDW2022).
-- Click OK to restore the database*/
+*/
